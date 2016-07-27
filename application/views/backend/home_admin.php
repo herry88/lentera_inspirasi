@@ -33,7 +33,7 @@
                           <th>Email</th>
                           <th>Telepon</th>
                           <th>Jumlah</th>
-                          <th>Status</th>
+                          <th>Diterima</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -47,7 +47,7 @@
                           <td><?php echo $row->email ?></td>
                           <td><?php echo $row->phone ?></td>                          
                           <td><?php echo $row->amount ?></td>
-                          <td><?php echo ($row->approved == '0') ? 'Pending' : 'Yes' ?></td>
+                          <td><?php echo ($row->status == '0') ? 'Pending' : 'Ya' ?></td>
                         </tr>
 
                           <?php

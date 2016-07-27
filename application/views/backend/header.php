@@ -9,7 +9,6 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="">
-  <link href="<?php echo base_url() ?>assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 
   <!-- Stylesheets -->

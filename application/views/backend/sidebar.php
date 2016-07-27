@@ -11,7 +11,7 @@
           <a href="#"><i class="fa fa-list-alt"></i> Konten  <span class="pull-right"><i class="fa fa-chevron-right"></i></span></a>
             <ul>
               <li><?php echo anchor('backend/donasi', 'Donasi'); ?></li>
-              <li><?php echo anchor('admin_f/berita', 'Berita'); ?></li>
+              <li><?php echo anchor('backend/tentang', 'Tentang Kami'); ?></li>
               <li><?php echo anchor('admin_f/galeri', 'Galeri'); ?></li>
               <li><?php echo anchor('admin_f/kategori', 'Kategori'); ?></li>
             </ul>
