@@ -18,6 +18,18 @@ class Home_m extends CI_Model {
 		return $query->row();
 	}
 
+	function ambil_post()
+		{
+			$query = $this->db->get('post');
+			return $query->result();
+		}	
+	function ambil_post_single($id)
+	{
+		$this->db->where('id', $id);
+		$query = $this->db->get('post',1);
+		return $query->row();
+	}
+
 	function ambil_tentang()
 	{
 		$this->db->where('jenis_menu', 'tentang_kami');

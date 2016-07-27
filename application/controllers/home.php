@@ -39,6 +39,20 @@ class Home extends CI_Controller {
 		}
 	}
 
+	public function post($id = null)
+	{
+		$data['title'] = 'Post';
+		if ($id == null) {
+			$data['post'] = $this->home_m->ambil_post();
+
+			$this->load->view('home/post', $data);
+		} else {
+			$data['post'] = $this->home_m->ambil_post_single($id);
+
+			$this->load->view('home/post_single', $data);
+		}
+	}
+
 }
 
 /* End of file home.php */
