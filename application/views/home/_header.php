@@ -37,11 +37,11 @@
 			<div class="clear"> </div>
 			<div class="navg">
 				<ul class="res">
-					<li><a class="active" href="<?php echo base_url() ?>">Beranda</a></li>
+					<li><a href="<?php echo base_url() ?>">Beranda</a></li>
 					<li><a href="<?php echo base_url() ?>home/tentang">Tentang Kami</a></li>
 					<li><a href="<?php echo base_url() ?>home/proyek">Proyek Sosial</a></li>
 					<li><a href="<?php echo base_url() ?>home/post">Post</a></li>
-					<li><a href="events.html">EVENTS</a></li>
+					<li><a href="<?php echo base_url() ?>home/laporan">Laporan Keuangan</a></li>
 					<li><a href="gallery.html">GALLERY</a></li>
 					<li><a href="contact.html">CONTACT US</a></li>
 				</ul>

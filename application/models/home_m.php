@@ -50,6 +50,12 @@ class Home_m extends CI_Model {
 		return $query->result();
 	}
 
+	function ambil_laporan()
+	{
+		$query = $this->db->get('finance_report');
+		return $query->result();
+	}
+
 }
 
 /* End of file home_m.php */

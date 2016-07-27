@@ -53,6 +53,14 @@ class Home extends CI_Controller {
 		}
 	}
 
+	public function laporan()
+	{
+		$data['title'] = 'Laporan Keuangan';
+		$data['laporan'] = $this->home_m->ambil_laporan();
+
+		$this->load->view('home/laporan', $data);
+	}
+
 }
 
 /* End of file home.php */
