@@ -17,6 +17,7 @@
               <li><?php echo anchor('backend/proyek', 'Proyek Sosial'); ?></li>
               <li><?php echo anchor('backend/anggota', 'Anggota'); ?></li>
               <li><?php echo anchor('backend/galeri', 'Galeri'); ?></li>
+              <li><?php echo anchor('backend/laporan', 'Laporan Keuangan'); ?></li>
             </ul>
           </li>  
           <?php if ($level == 'Admin') : ?>
