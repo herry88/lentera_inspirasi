@@ -52,7 +52,7 @@
 			<span>Menu</span>
 		  </button>
 		  <!-- Site name for smallar screens -->
-		  <?php echo anchor(base_url(), 'Pelayaran Gema Bahari', 'class=navbar-brand'); ?>
+		  <?php echo anchor(base_url(), 'Lentera Inspirasi', 'class=navbar-brand'); ?>
 		</div>
       
       
