@@ -61,6 +61,14 @@ class Home extends CI_Controller {
 		$this->load->view('home/laporan', $data);
 	}
 
+	public function galeri()
+	{
+		$data['title'] = 'Galeri';
+		$data['galeri'] = $this->home_m->ambil_galeri();
+
+		$this->load->view('home/galeri', $data);
+	}
+
 }
 
 /* End of file home.php */

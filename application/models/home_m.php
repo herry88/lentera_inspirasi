@@ -56,6 +56,12 @@ class Home_m extends CI_Model {
 		return $query->result();
 	}
 
+	function ambil_galeri()
+	{
+		$query = $this->db->get('gallery');
+		return $query->result();
+	}
+
 }
 
 /* End of file home_m.php */

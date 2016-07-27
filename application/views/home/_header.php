@@ -33,7 +33,7 @@
 			<div class="logo">
 				<a href="<?php echo base_url() ?>"> <img src="<?php echo base_url() ?>assets/home/images/logo.png" alt=""/> </a>
 			</div>
-			<span class="menu"> <img src="images/icon.png" alt=""/></span>
+			<span class="menu"> <img src="<?php echo base_url() ?>/assets/images/icon.png" alt=""/></span>
 			<div class="clear"> </div>
 			<div class="navg">
 				<ul class="res">
@@ -42,7 +42,7 @@
 					<li><a href="<?php echo base_url() ?>home/proyek">Proyek Sosial</a></li>
 					<li><a href="<?php echo base_url() ?>home/post">Post</a></li>
 					<li><a href="<?php echo base_url() ?>home/laporan">Laporan Keuangan</a></li>
-					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a href="<?php echo base_url() ?>home/galeri">Galeri</a></li>
 					<li><a href="contact.html">CONTACT US</a></li>
 				</ul>
 				 <script>
