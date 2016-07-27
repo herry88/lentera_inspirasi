@@ -13,6 +13,7 @@
               <li><?php echo anchor('backend/donasi', 'Donasi'); ?></li>
               <li><?php echo anchor('backend/tentang', 'Tentang Kami'); ?></li>
               <li><?php echo anchor('backend/tujuan', 'Tujuan'); ?></li>
+              <li><?php echo anchor('backend/post', 'Post'); ?></li>
             </ul>
           </li>  
           <?php if ($level == 'Admin') : ?>
