@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-md-12">
             <!-- Copyright info -->
-            <p class="copy">Copyright &copy; 2015 | <a href="#">PT. Pelayaran Gema Bahari</a> </p>
+            <p class="copy">Copyright &copy; 2016 | <a href="#">Lentera Inspirasi</a> </p>
       </div>
     </div>
   </div>

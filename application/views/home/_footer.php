@@ -4,13 +4,13 @@
 		<div class="footer-main">
 			<div class="footer-navg">
 				<ul>
-					<li><a class="active" href="index.html">HOME</a></li>
-					<li><a href="<?php echo base_url() ?>tentang">Tentang Kami</a></li>
-					<li><a href="projects.html">PROJECTS</a></li>
-					<li><a href="blog.html">BLOG</a></li>
-					<li><a href="events.html">EVENTS</a></li>
-					<li><a href="gallery.html">GALLERY</a></li>
-					<li><a href="contact.html">CONTACT US</a></li>
+					<li><a href="<?php echo base_url() ?>">Beranda</a></li>
+					<li><a href="<?php echo base_url() ?>home/tentang">Tentang Kami</a></li>
+					<li><a href="<?php echo base_url() ?>home/proyek">Proyek Sosial</a></li>
+					<li><a href="<?php echo base_url() ?>home/post">Post</a></li>
+					<li><a href="<?php echo base_url() ?>home/laporan">Laporan Keuangan</a></li>
+					<li><a href="<?php echo base_url() ?>home/galeri">Galeri</a></li>
+					<li><a href="<?php echo base_url() ?>home/donasi">Donasi</a></li>
 				</ul>
 			</div>
 			<div class="footer-top">

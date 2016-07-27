@@ -62,6 +62,11 @@ class Home_m extends CI_Model {
 		return $query->result();
 	}
 
+	function save_donation($data)
+	{
+		$this->db->insert('donation', $data);
+	}
+
 }
 
 /* End of file home_m.php */

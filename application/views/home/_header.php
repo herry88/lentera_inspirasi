@@ -43,7 +43,7 @@
 					<li><a href="<?php echo base_url() ?>home/post">Post</a></li>
 					<li><a href="<?php echo base_url() ?>home/laporan">Laporan Keuangan</a></li>
 					<li><a href="<?php echo base_url() ?>home/galeri">Galeri</a></li>
-					<li><a href="contact.html">CONTACT US</a></li>
+					<li><a href="<?php echo base_url() ?>home/donasi">Donasi</a></li>
 				</ul>
 				 <script>
 			                                                      $( "span.menu").click(function() {

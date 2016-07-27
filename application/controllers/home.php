@@ -69,6 +69,26 @@ class Home extends CI_Controller {
 		$this->load->view('home/galeri', $data);
 	}
 
+	public function donasi()
+	{
+		$this->form_validation->set_rules('name', 'Nama', 'trim|required');
+		$data['title'] = 'Donasi';
+		if($this->form_validation->run() == FALSE) {
+			
+		} else {
+			$data = array(
+					'name' => $this->input->post('name'),
+					'email' => $this->input->post('email'),
+					'phone' => $this->input->post('phone'),
+					'amount' => $this->input->post('amount'),
+					'remarks' => $this->input->post('remarks')
+				);
+
+			$this->home_m->save_donation($data);
+		}
+		$this->load->view('home/donasi', $data);
+	}
+
 }
 
 /* End of file home.php */
